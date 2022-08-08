@@ -23,6 +23,6 @@ const productModel = database.Schema({
 
 })
 
-const ProductModel = database.model('User', productModel)
+const ProductModel = database.model('Product', productModel)
 
 module.exports = ProductModel
