@@ -13,5 +13,4 @@ connect()
 
 Mongoose.connection.on('disconnected', connect)
 
-
 module.exports = Mongoose
