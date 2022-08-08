@@ -5,6 +5,9 @@
   "repository": "https://github.com/lucas-marquisio/api-crud.git",
   "author": "Lucas Marquisio <contato.lucasmarquisio@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "createAdmin": "node ./src/app/utils/createAdmin.js"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",

@@ -1,13 +1,14 @@
 const  express = require('express')
 const cors = require('cors')
 
-const server = express()
-
 require('dotenv').config()
-require('../database')
+const server = express()
+const routes = require('./routes')
 
-server.use(cors())
 server.use(express.urlencoded({ extended: true }))
 server.use(express.json())
+server.use(cors())
+server.use(routes)
+
 
 module.exports = server

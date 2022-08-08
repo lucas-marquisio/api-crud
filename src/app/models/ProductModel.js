@@ -20,7 +20,6 @@ const productModel = database.Schema({
     type: Number,
     required: true
   }
-
 })
 
 const ProductModel = database.model('Product', productModel)
