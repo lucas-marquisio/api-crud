@@ -6,7 +6,7 @@ const AuthController = async (req, res) => {
     return res.status(200).json({ ...auth })
   }catch(e){
     const {message, status} = e
-    return res.status(status).json({ error: message })
+    return res.status(status || 500).json({ error: message || 'internal error.'})
   }
 }
 
