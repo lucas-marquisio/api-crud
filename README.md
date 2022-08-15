@@ -1,12 +1,12 @@
 
-# API AUTH / CRUD
+# API Autenticação, Crud & Testes
 
 * Autenticação Admin
 * Adicionar Produto
 * Remover Produto
 * Listar todos os Produtos
 * Deletar Produto
-
+* Testes unitarios 
 
 
 
